@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="vendors/fontawesome/fontcss/all.min.css?_v=20240920203110">
+  <link rel="stylesheet" href="css/style.min.css?_v=20240920203110">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap&_v=20240920203110" rel="stylesheet">
+  
+  <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20240920203110">-->
+  <link rel="stylesheet" href="vendors/swiper/swiper11-bundle.min.css?_v=20240920203110">
+  
+  <title>Card</title>
+</head>
+
+  <body>
+    <div class="wrapper">
+      
+      <header class="header">
+  <div class="mobile-layer"></div>
+  <div class="container">    
+    <div class="header__inner">
+      <!--
+<div id="logo" class="logo">
+  <a href="index.html" class="logo__link">
+    <img class="logo__image" src="logo/logo.png" alt="logo">
+  </a>
+</div>
+-->
+
+<a href="#" class="contact-button">
+  Зв'язатись
+  <span class="icon-circle">
+    <span class="icon"></span>
+  </span>
+</a>
+
+
+
+
+
+ 
+      
+      
+      <!--<button class="menu-icon fas fa-bars"></button>-->
+      <button class="menu-icon fas icon-custom"></button>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__list-item"> 
+            <a class="menu__list-link" href="index.html">          
+             <span class="menu__list-title">Головна</span> 
+            </a>           
+          </li>
+  
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="about.html">
+              <span class="menu__list-title">Про нас</span>
+            </a>
+          </li>       
+
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="services.html">
+              <span class="menu__list-title">Послуги</span>
+            </a>
+          </li>     
+  
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="contacts.html">
+              <span class="menu__list-title">Контакти</span>
+            </a>
+          </li>   
+
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="vacancies.html">
+              <span class="menu__list-title">Вакансії</span>
+            </a>
+          </li>      
+        </ul>
+        
+        <div id="languages" class="languages">
+  <!--<img src="icon/vector.png" alt="languages-icon">-->
+  <i class="fas fa-globe"></i>
+  <ul class="languages__list">
+    <li class="languages__item">
+      <span class="languages__link">Deutsch</span>
+      <ul class="languages__submenu">
+        <li class="languages__submenu-item">
+          <a class="languages__submenu-link" href="">Uk</a>
+        </li>
+        <li class="languages__submenu-item">
+          <a class="languages__submenu-link" href="">En</a>
+        </li>
+        <li class="languages__submenu-item">
+          <a class="languages__submenu-link" href="">Eu</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <i class="languages__icon fas fa-chevron-down"></i>
+</div>
+ 
+        
+      </nav>
+    </div>
+  </div>
+  <hr class="header__line"> 
+</header>
+
+  
+ 
+       
+      <!-- main page content -->      
+      <main class="main main--card">                              
+        <!-- TODO - module top -->
+          <section class="top--card"> <!-- style="background-image: url(img/top_bg-41084.png);" -->
+            <img class="top--card__image-mob" src="img/clew-3.png" alt="bg">
+            <img class="top--card__image-mob top--card__image-mob--bg" src="img/eclipse-2.png" alt="bg">
+            <img class="top--card__image" src="img/clew-3.png" alt="bg">  
+            <img class="top--card__image top--card__image--bg" src="img/eclipse-2.png" alt="bg">  
+             
+
+            <div class="container">
+              <div class="top--card__left">              
+                <div class="top--card__inner">
+                                 
+                  <h1 class="top--card__title">Сайт-візитка</h1>  
+                  <p class="top--card__text">ідеальне рішення для тих, хто хоче представити свою компанію, продукт або послугу в Інтернеті без зайвих витрат і складнощів. Це компактний і інформативний сайт, що складається з кількох сторінок, який містить усю необхідну інформацію про ваш бізнес і допомагає завоювати довіру клієнтів.</p> 
+
+                  <a href="#" class="top--card__details-btn top--card-details-btn">
+                     Детальніше
+                     <span class="top--card-details-btn__circle">
+                       <span class="top--card-details-btn__icon"></span>
+                     </span>
+                  </a>                  
+                                                      
+                 </div>
+               </div> 
+               <hr class="top--card__line">
+               <p class="top--card__text top--card__text--down">Наші сайти-візитки розроблені з урахуванням всіх сучасних стандартів веб-дизайну та адаптовані для будь-якого пристрою — від комп’ютерів до смартфонів. Ми створюємо унікальні та стильні сайти, які відображають індивідуальність вашого бізнесу і ефективно представляють його онлайн</p>             
+             </div>                                             
+          </section>
+
+          <div class="accordion--card"> 
+            <div class="container">
+              <div class="accordion--card__content">
+                <h2 class="accordion--card__title">Що входить в сайт-візитку до 10 сторінок:</h2>
+                <!--
+<div id="acc1">
+  <button class="accordion about__accordion">Section 1</button>
+  <div class="panel about__panel">
+    <p>Interested in “developing” your developer skills? In W3Cx’s hands-on Professional 
+       Certificate Program, learn how to code the right way by creating Web sites and apps that 
+       use the latest Web standards.
+       Interested in “developing” your developer skills? In W3Cx’s hands-on Professional 
+       Certificate Program, learn how to code the right way by creating Web sites 
+       and apps that use the latest Web standards.
+    </p>
+  </div>
+
+  <button class="accordion about__accordion">Section 2</button>
+  <div class="panel about__panel">
+    <p>Interested in “developing” your developer skills? In W3Cx’s hands-on Professional 
+       Certificate Program, learn how to code the right way by creating Web sites and apps 
+       that use the latest Web standards.
+    </p>
+  </div>
+
+  <button class="accordion about__accordion">Section 3</button>
+  <div class="panel about__panel">
+    <p>Interested in “developing” your developer skills? In W3Cx’s hands-on Professional
+       Certificate Program, learn how to code the right way by creating Web sites and apps 
+       that use the latest Web standards.
+    </p>
+  </div>            
+</div>
+-->
+
+<!--
+<div id="acc2">
+  <button class="accordion news__accordion">Section 1</button>
+  <div class="panel news__panel">
+    <p>Interested in “developing” your developer skills? In W3Cx’s hands-on Professional 
+       Certificate Program, learn how to code the right way by creating Web sites and apps 
+       that use the latest Web standards.
+    </p>
+  </div>
+
+  <button class="accordion news__accordion">Section 2</button>
+  <div class="panel news__panel">
+    <p>Interested in “developing” your developer skills? In W3Cx’s hands-on Professional 
+       Certificate Program, learn how to code the right way by creating Web sites and apps 
+       that use the latest Web standards.
+    </p>
+  </div>
+
+  <button class="accordion news__accordion">Section 3</button>
+  <div class="panel news__panel">
+    <p>Interested in “developing” your developer skills? In W3Cx’s hands-on Professional 
+       Certificate Program, learn how to code the right way by creating Web sites and apps 
+       that use the latest Web standards.
+    </p>
+  </div>           
+</div>
+-->
+
+<!--
+<div id="acc3">
+  <button class="accordion other__accordion">Відкрийте нові ідеї</button>
+  <div class="panel other__panel">
+    <p>Ця збірка призначена для дизайнерів, які прагнуть вдосконалювати свої навички та працювати з найкращими у галузі. Відкрийте для себе нові ідеї 
+    </p>
+  </div>
+
+  <button class="accordion other__accordion">Відкрийте нові ідеї</button>
+  <div class="panel other__panel">
+    <p>Ця збірка призначена для дизайнерів, які прагнуть вдосконалювати свої навички та працювати з найкращими у галузі. Відкрийте для себе нові ідеї  
+    </p>
+  </div>
+
+  <button class="accordion other__accordion">Вдосконалювати свої навички</button>
+  <div class="panel other__panel">
+    <p>Ця збірка призначена для дизайнерів, які прагнуть вдосконалювати свої навички та працювати з найкращими у галузі.  
+    </p>
+  </div>    
+
+  <button class="accordion other__accordion">Занурення у світ дизайну</button>
+  <div class="panel other__panel">
+    <p>Ця збірка призначена для дизайнерів, які прагнуть вдосконалювати свої навички та працювати з найкращими у галузі. Відкрийте для себе нові ідеї  
+    </p>
+  </div>
+  
+  <button class="accordion other__accordion">Унікальна можливість втілити</button>
+  <div class="panel other__panel">
+    <p>Ця збірка призначена для дизайнерів, які прагнуть вдосконалювати свої навички та працювати з найкращими у галузі. Відкрийте для себе нові ідеї 
+    </p>
+  </div>
+
+  <button class="accordion other__accordion">Призначена для дизайнерів</button>
+  <div class="panel other__panel">
+    <p>Ця збірка призначена для дизайнерів, які прагнуть вдосконалювати свої навички та працювати з найкращими у галузі. 
+    </p>
+  </div>        
+</div>
+-->
+
+<div id="acc4">
+  <button class="accordion variant__accordion">Головна сторінка</button>
+  <div class="panel variant__panel">
+    <p>Привітання відвідувачів і короткий огляд ваших послуг або продуктів. 
+    </p>
+  </div>
+
+  <button class="accordion variant__accordion">Про компанію</button>
+  <div class="panel variant__panel">
+    <p>Привітання відвідувачів і короткий огляд ваших послуг або продуктів. 
+    </p>
+  </div>
+
+  <button class="accordion variant__accordion">Послуги</button>
+  <div class="panel variant__panel">
+    <p>Привітання відвідувачів і короткий огляд ваших послуг або продуктів. Привітання відвідувачів і короткий огляд ваших послуг або продуктів.
+    </p>
+  </div>    
+
+  <button class="accordion variant__accordion">Портфоліо</button>
+  <div class="panel variant__panel">
+    <p>Привітання відвідувачів і короткий огляд ваших послуг або продуктів. 
+    </p>
+  </div>
+  
+  <button class="accordion variant__accordion">Відгуки</button>
+  <div class="panel variant__panel">
+    <p>Привітання відвідувачів і короткий огляд ваших послуг або продуктів. Привітання відвідувачів і короткий огляд ваших послуг або продуктів.
+    </p>
+  </div>
+
+  <button class="accordion variant__accordion">Контакти</button>
+  <div class="panel variant__panel">
+    <p>Привітання відвідувачів і короткий огляд ваших послуг або продуктів.
+    </p>
+  </div> 
+
+  <button class="accordion variant__accordion">Блог/Новини</button>
+  <div class="panel variant__panel">
+    <p>Привітання відвідувачів і короткий огляд ваших послуг або продуктів. 
+    </p>
+  </div>
+
+  <button class="accordion variant__accordion">FAQ</button>
+  <div class="panel variant__panel">
+    <p>Привітання відвідувачів і короткий огляд ваших послуг або продуктів.
+    </p>
+  </div>
+
+  <button class="accordion variant__accordion">Галерея</button>
+  <div class="panel variant__panel">
+    <p>Привітання відвідувачів і короткий огляд ваших послуг або продуктів.
+    </p>
+  </div>
+
+  <button class="accordion variant__accordion">Акції/Пропозиції</button>
+  <div class="panel variant__panel">
+    <p>Привітання відвідувачів і короткий огляд ваших послуг або продуктів. Привітання відвідувачів і короткий огляд ваших послуг або продуктів.
+    </p>
+  </div>       
+</div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <section class="advantages--card">
+            <div class="container">
+              
+              <h2 class="advantages--card__prev-title">Переваги</h2>                          
+              <div class="advantages--card__box">                   
+            
+                <div class="advantages--card__advantage advantage-card">
+                  <div class="advantage-card__container-alignment">                                               
+                    <a class="advantage-card__link" href="#">
+                      <img class="advantage-card__link-icon" src="icon/ux-design.png" alt="bg">               
+                    </a>    
+                    <span class="advantage-card__title">Індивідуальний дизайн</span>
+                  </div>         
+                  <p class="advantage-card__text">Ми створюємо унікальні дизайни, що відображають особливості вашого бренду.</p>  
+                  <!--
+                  <a href="#" class="advantage-card__btn advantage-card-btn">
+                     Детальніше
+                     <span class="advantage-card-btn__circle">
+                       <span class="advantage-card-btn__icon"></span>
+                     </span>
+                  </a>
+                  -->           
+                </div>
+                        
+                <div class="advantages--card__advantage advantage-card">
+                  <div class="advantage-card__container-alignment">                                               
+                    <a class="advantage-card__link" href="#">
+                      <img class="advantage-card__link-icon" src="icon/megaphone.png" alt="bg">               
+                    </a>    
+                    <span class="advantage-card__title">Адаптивність</span>
+                  </div>         
+                  <p class="advantage-card__text">Сайти адаптовані для коректного відображення на всіх пристроях — від смартфонів до десктопів</p>  
+                  <!--
+                  <a href="#" class="advantage-card__btn advantage-card-btn">
+                     Детальніше
+                     <span class="advantage-card-btn__circle">
+                       <span class="advantage-card-btn__icon"></span>
+                     </span>
+                  </a> 
+                  -->          
+                </div>
+                
+                <div class="advantages--card__advantage advantage-card">
+                  <div class="advantage-card__container-alignment">                                               
+                    <a class="advantage-card__link" href="#">
+                      <img class="advantage-card__link-icon" src="icon/share.png" alt="bg">               
+                    </a>    
+                    <span class="advantage-card__title">Простота і зручність</span>
+                  </div>         
+                  <p class="advantage-card__text">Ми розробляємо сайти з інтуїтивно зрозумілою навігацією, щоб ваші клієнти легко знаходили потрібну інформацію</p>  
+                  <!--
+                  <a href="#" class="advantage-card__btn advantage-card-btn">
+                     Детальніше
+                     <span class="advantage-card-btn__circle">
+                       <span class="advantage-card-btn__icon"></span>
+                     </span>
+                  </a> 
+                  -->          
+                </div>
+
+                <div class="advantages--card__advantage advantage-card">
+                  <div class="advantage-card__container-alignment">                                               
+                    <a class="advantage-card__link" href="#">
+                      <img class="advantage-card__link-icon" src="icon/ux-design.png" alt="bg">               
+                    </a>    
+                    <span class="advantage-card__title">SEO-оптимізація</span>
+                  </div>         
+                  <p class="advantage-card__text">Наші сайти оптимізовані для пошукових систем, що допомагає покращити їх видимість в Інтернеті.</p>  
+                
+                  <a href="#" class="advantage-card__btn advantage-card-btn">
+                     Детальніше
+                     <span class="advantage-card-btn__circle">
+                       <span class="advantage-card-btn__icon"></span>
+                     </span>
+                  </a>           
+                </div>
+
+                <div class="advantages--card__advantage advantage-card">
+                  <div class="advantage-card__container-alignment">                                               
+                    <a class="advantage-card__link" href="#">
+                      <img class="advantage-card__link-icon" src="icon/megaphone.png" alt="bg">               
+                    </a>    
+                    <span class="advantage-card__title">Швидка розробка</span>
+                  </div>         
+                  <p class="advantage-card__text">Наші сайти оптимізовані для пошукових систем, що допомагає покращити їх видимість в Інтернеті.</p>  
+                
+                  <a href="#" class="advantage-card__btn advantage-card-btn">
+                     Детальніше
+                     <span class="advantage-card-btn__circle">
+                       <span class="advantage-card-btn__icon"></span>
+                     </span>
+                  </a>           
+                </div>
+                      
+              </div><!-- box -->
+            </div><!-- container -->
+          </section>
+
+          <section class="stages--card">
+            <div class="container">
+              
+              <h2 class="stages--card__prev-title">Етапи роботи</h2>                          
+              <div class="stages--card__box">                   
+            
+                <div class="stages--card__stage stage-card">
+                  <div class="stage-card__container-alignment">                                               
+                    <span class="stage-card__circle">
+                      01               
+                    </span>    
+                    <h3 class="stage-card__title">Розробка дизайну сторінки</h3>
+                  </div>                             
+                  <!--<ul class="stage-card__list">                             
+                    <li class="stage-card__list-item">
+                      <span class="stage-card__list-text">Але щоб ви зрозуміли, звідки виникає це хибне уявлення людей, цуратись</span>
+                    </li>                                                                                                            
+                  </ul>-->                                                              
+                </div>
+                        
+                <div class="stages--card__stage stage-card">
+                  <div class="stage-card__container-alignment">                                              
+                    <span class="stage-card__circle">
+                      02              
+                    </span>   
+                    <h3 class="stage-card__title">Написання текстового контенту</h3>                              
+                  </div>                                                 
+                  <!--<ul class="stage-card__list">                             
+                    <li class="stage-card__list-item">
+                      <span class="stage-card__list-text">Але щоб ви зрозуміли, звідки виникає це хибне уявлення людей, цуратись</span>
+                    </li>                                                          
+                  </ul>-->                                                                                    
+                </div>
+                
+                <div class="stages--card__stage stage-card">
+                  <div class="stage-card__container-alignment">                                               
+                    <span class="stage-card__circle stage-card__circle--no-pseudo">
+                      03          
+                    </span>   
+                    <h3 class="stage-card__title">Верстка та програмування сайту</h3>                              
+                  </div>                                                 
+                  <!--<ul class="stage-card__list">                             
+                    <li class="stage-card__list-item">
+                      <span class="stage-card__list-text">Але щоб ви зрозуміли, звідки виникає це хибне уявлення людей, цуратись</span>
+                    </li>                                                                                                             
+                  </ul>-->                                                                            
+                </div>
+
+                <div class="stages--card__stage stage-card">
+                  <div class="stage-card__container-alignment">                                               
+                    <span class="stage-card__circle">
+                      04              
+                    </span>   
+                    <h3 class="stage-card__title">Підключення та налаштування аналітики</h3>                              
+                  </div>        
+                                             
+                  <!--<ul class="stage-card__list">                             
+                    <li class="stage-card__list-item">
+                      <span class="stage-card__list-text">Але щоб ви зрозуміли, звідки виникає це хибне уявлення людей, цуратись</span>
+                    </li>                                                                                                             
+                  </ul>-->                                                          
+                </div>
+
+                <div class="stages--card__stage stage-card">
+                  <div class="stage-card__container-alignment">                                               
+                    <span class="stage-card__circle stage-card__circle--no-pseudo">
+                      05             
+                    </span>   
+                    <h3 class="stage-card__title">Налаштування SEO та базової аналітики</h3>                              
+                  </div>                                                    
+                  <!--<ul class="stage-card__list">                             
+                    <li class="stage-card__list-item">
+                      <span class="stage-card__list-text">Але щоб ви зрозуміли, звідки виникає це хибне уявлення людей, цуратись</span>
+                    </li>                                                                                                             
+                  </ul>-->                                                        
+                </div>
+                                     
+              </div><!-- mod-tiles-box -->
+            </div><!-- container -->
+          </section>
+
+          <section class="question--card"> 
+            <img class="question--card__image-bg" src="img/eclipse-2.png" alt="bg">              
+            <div class="container"> 
+                
+              <div class="question--card__content">
+                   
+                <img class="question--card__image-icon-x" src="icon/star-2.png" alt="bg"> 
+                <h2 class="question--card__title"><img class="question__image-icon" src="icon/star-1.png" alt="bg">
+                    Знайшли для себе вирішення для свого проєкту? 
+                </h2> 
+                <p class="question--card__text">
+                   Ми з радістю проконсультуємо вас та підберемо найкращий варіант для створення вашого майбутнього сайту</p> 
+
+                <a href="tel:+1234567890" class="question--card__more-btn js-lightbox">
+                   Зв'язатись
+                  <span class="question--card__circle">
+                    <span class="question--card__icon"></span>
+                  </span>
+                </a>
+              </div>                              
+                          
+            </div><!-- container -->                                         
+          </section>
+  
+         <div class="container">  
+           <div class="about__buttons">                                                  
+              
+           </div>
+         </div>    
+                  
+               
+                        
+         <div class="container-swiperNews">
+           
+                     
+         </div><!-- container -->           
+           
+         <div class="container">                            
+           <!-- btns -->
+<!--
+<div id="btns" class="btns">
+  <button class="btns__btn btn-strategy js-lightbox">
+    <i class="btns__icon fas fa-chess-knight"></i>
+    <span class="btns__name">strategy</span>
+  </button> 
+  <button class="btns__btn btn-invest js-lightbox">
+    <i class="btns__icon fas fa-money-check-alt"></i>
+    <span class="btns__name">invest</span>
+  </button> 
+  <button class="btns__btn btn-contracts js-lightbox">
+    <i class="btns__icon far fa-regular fa-handshake"></i>
+    <span class="btns__name">contracts</span>
+  </button>                          
+</div>
+-->
+
+<!-- lightbox -->
+<div id="lightbox" class="lightbox">
+  <div class="lightbox__layer">
+   
+    <div class="lightbox__modal lightbox__modal--form">
+      <span class="lightbox__close lightbox__close--form far fa-times-circle"></span>
+      
+<!-- TODO - module contacts -->
+<div id="contacts" class="contacts">         
+                                                                        
+                
+      <div class="form">
+                 
+            
+         
+        <form action="#" id="form" class="form__body">  
+          <div class="form__flex-alignment">
+                                
+            <div class="form__item">              
+              <!--<label for="formName" class="form__label">Your name*:</label>-->
+              <input id="formName" type="text" name="name" class="form__input _req" placeholder="Ім'я">
+              <div class="form__tooltip">
+                <span class="form__tooltip-text">fill in required fields!</span>
+              </div>
+            </div>
+            <div class="form__item">              
+              <!--<label for="formEmail" class="form__label">Your e-mail*:</label>-->
+              <input id="formEmail" type="text" name="email" class="form__input _req _email" placeholder="Номер телефону">
+              <div class="form__tooltip">
+                <span class="form__tooltip-text">заполните обязательные поля!</span>
+              </div>
+            </div> 
+                        
+          </div><!-- form__flex-alignment -->
+               
+          <!--
+          <div class="form__item">              
+            <div class="form__label">Вид дубления:</div>
+            <div class="options">
+              <div class="options__item">
+                <input id="formRightHanded" checked type="radio" value="right" name="hand" class="options__input"> 
+                <label for="formRightHanded" class="options__label"><span>Химическое</span></label>
+              </div>
+              <div class="options__item">
+                <input id="formLeftHanded" type="radio" value="left" name="hand" class="options__input"> 
+                <label for="formLeftHanded" class="options__label"><span>Растительное</span></label>
+              </div>
+            </div>
+          </div>
+          -->
+               
+          <div class="form__item"> 
+            <!--<label for="formMessage" class="form__label">Your message:</label>-->
+            <textarea name="message" id="formMessage" class="form__input form__input--area" placeholder="Повідомлення"></textarea>
+          </div> 
+               
+          <!--
+          <div class="form__item"> 
+            <div class="form__label">Вид фурнитуры:</div>
+            <select name="age" class="select">
+              <option value="Антик" selected>Антик</option>
+              <option value="Сатин">Сатин</option>
+              <option value="Без фурнитуры">Без фурнитуры</option>
+            </select>
+          </div>
+          <div class="form__item"> 
+            <div class="form__label">Ваш эскиз (фото)</div>
+            <div class="file">
+              <div class="file__item">
+                <input id="formImage" accept=".jpg, .png, .gif" type="file" name="image" class="file__input">
+                <div class="file__button">Эскиз</div>
+              </div> 
+              <div id="formPreview" class="file__preview"></div>
+            </div>                 
+          </div>
+          -->
+               
+          <div class="form__item"> 
+             <div class="checkbox"> 
+                <input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input _req">
+                <label for="formAgreement" class="checkbox__label"><span>I give my consent to the processing of 
+                       data in accordance with <a href="#">the conditions</a>*</span></label>
+             </div>
+          </div>              
+          <button type="submit" class="form__button">Надіслати форму</button>      
+          <!--<span class="form-button-cancel">cancel</span>--> <!-- TODO - кнопка очистки формы: -->                   
+        </form><!--form__body--> 
+                                                                                                 
+      </div><!-- class="form" -->                        
+                          
+     
+  
+  
+       
+</div><!-- contacts -->  
+<!-- module contacts -->
+          
+          
+          
+        
+    </div>  
+ 
+    <!--         
+    <div class="lightbox__modal lightbox__modal--srategy">
+    <span class="lightbox__close lightbox__close--srategy far fa-times-circle"></span>
+
+      <div class="srategy">
+        <div class="container">
+          <h3 class="srategy__title">Unsere Strategie:</h3> 
+          <p class="srategy__text">
+            Wir entwickeln maßgeschneiderte Lösungen, die den Bedürfnissen Ihres 
+            Unternehmens entsprechen.<br> 
+            Basierend auf einer tiefgehenden Marktanalyse bieten wir innovative Ansätze 
+            für nachhaltiges Wachstum.<br> 
+            Unsere Experten nutzen bewährte Methoden und modernste Technologien, um maximale 
+            Effizienz zu gewährleisten.<br> 
+            Wir begleiten Sie in allen Phasen der Strategieumsetzung, von der Planung 
+            bis zur Implementierung.<br> 
+            Vertrauen Sie den Profis, und Ihr Unternehmen wird neue Höhen erreichen!
+          </p>
+        </div>
+      </div>
+
+    </div> 
+    -->  
+
+    <!--
+    <div class="lightbox__modal lightbox__modal--invest">
+    <span class="lightbox__close lightbox__close--invest far fa-times-circle"></span>
+
+      <div class="invest">        
+        <h3 class="invest__title">Investieren Sie in Ihre Zukunft:</h3> 
+        <p class="invest__text">
+           Wir bieten maßgeschneiderte Anlagestrategien, die auf Ihre 
+           finanziellen Ziele abgestimmt sind.<br> Vertrauen Sie auf unsere Expertise 
+           und fundierte Marktanalysen, um das Beste aus Ihren Investitionen herauszuholen.
+        </p>        
+      </div>
+
+    </div>
+    -->   
+
+    <!--
+    <div class="lightbox__modal lightbox__modal--contracts">
+      <span class="lightbox__close lightbox__close--contracts far fa-times-circle"></span>
+
+      <img class="lightbox__image" src="img/top-consult.jpg" alt="photo">
+
+    </div>
+    -->
+
+             
+  </div><!--lightbox__layer-->
+</div><!--lightbox-->
+ 
+         </div><!-- container -->      
+                                                                                                                 
+         <div class="container-swiperLatest">                            
+                           
+         </div><!-- container -->             
+
+         <div class="container">            
+           
+         </div><!-- container -->
+          
+         
+
+         <div class="container">
+           
+         </div>
+
+          
+                                                                                                                                
+      </main><!-- main page content -->
+      
+      <!--<footer class="footer" style="background-image: url(img/chicken-bg.jpg);">-->
+<footer class="footer">
+
+  
+   
+  
+
+  <div class="background">
+  <img class="background__image" src="img/2.png" alt="bg"> 
+  <img class="background__image background__image--bg" src="img/eclipse-2.png" alt="bg">
+</div>
+
+
+  <div class="container">    
+    <div class="footer__inner">
+
+      <div class="footer-nav-alignment">
+
+        <nav class="footer-menu">
+          <ul class="footer-menu__list">
+            <li class="footer-menu__list-item">    
+              <a class="footer-menu__list-link" href="index.html">       
+               <span class="footer-menu__list-title">Головна</span>
+              </a>            
+            </li>
+  
+            <li class="footer-menu__list-item">
+              <a class="footer-menu__list-link" href="about.html">
+                <span class="footer-menu__list-title">Про нас</span>
+              </a>
+            </li>       
+
+            <li class="footer-menu__list-item">
+              <a class="footer-menu__list-link" href="services.html">
+                <span class="footer-menu__list-title">Послуги</span>
+              </a>
+            </li>     
+  
+            <li class="footer-menu__list-item">
+              <a class="footer-menu__list-link" href="contacts.html">
+                <span class="footer-menu__list-title">Контакти</span>
+              </a>
+            </li>   
+
+            <li class="footer-menu__list-item">
+              <a class="footer-menu__list-link" href="vacancies.html">
+                <span class="footer-menu__list-title">Вакансії</span>
+              </a>
+            </li>      
+          </ul>               
+        </nav>
+
+        <nav class="footer-links">
+
+          <div class="footer-social">                                     
+            <a class="footer-social__link" href="#">
+              <img class="footer-social__icon" src="icon/telegram.png" alt="icon">            
+            </a>          
+            <a class="footer-social__link" href="#">          
+             <img class="footer-social__icon" src="icon/linkedin.png" alt="icon">
+            </a>                  
+            <a class="footer-social__link" href="#">
+              <img class="footer-social__icon" src="icon/instagram.png" alt="icon">
+            </a>     
+            <a class="footer-social__link" href="#">          
+              <img class="footer-social__icon" src="icon/facebook.png" alt="icon">
+            </a>   
+          </div>
+
+          <ul class="footer-links__list">
+            <li class="footer-links__list-item">                                     
+              <a class="footer-links__list-link" href="#">
+                <span class="footer-links__list-title">Швидкий зв'язок</span>            
+              </a>
+            </li>      
+
+            <li class="footer-links__list-item">    
+               <a class="footer-links__list-link" href="#">          
+                 <span class="footer-links__list-title">Договір оферти</span> 
+               </a>
+            </li>      
+
+            <li class="footer-links__list-item">            
+              <a class="footer-links__list-link" href="#">
+                <span class="footer-links__list-title">Політика конфіденційності</span>
+              </a>
+            </li>
+          </ul>        
+        </nav>
+
+      </div>
+ 
+      <div class="footer-social footer-social--mobile">                                     
+        <a class="footer-social__link" href="">
+          <img class="footer-social__icon" src="icon/telegram.png" alt="icon">            
+        </a>          
+        <a class="footer-social__link" href="">          
+         <img class="footer-social__icon" src="icon/linkedin.png" alt="icon">
+        </a>                  
+        <a class="footer-social__link" href="">
+          <img class="footer-social__icon" src="icon/instagram.png" alt="icon">
+        </a>     
+        <a class="footer-social__link" href="">          
+          <img class="footer-social__icon" src="icon/facebook.png" alt="icon">
+        </a>   
+      </div>      
+
+      <div class="footer__form">
+        
+<!-- TODO - module contacts -->
+<div id="contacts" class="contacts">         
+                                                                        
+                
+      <div class="form">
+                 
+            
+         
+        <form action="#" id="form" class="form__body">  
+          <div class="form__flex-alignment">
+                                
+            <div class="form__item">              
+              <!--<label for="formName" class="form__label">Your name*:</label>-->
+              <input id="formName" type="text" name="name" class="form__input _req" placeholder="Ім'я">
+              <div class="form__tooltip">
+                <span class="form__tooltip-text">fill in required fields!</span>
+              </div>
+            </div>
+            <div class="form__item">              
+              <!--<label for="formEmail" class="form__label">Your e-mail*:</label>-->
+              <input id="formEmail" type="text" name="email" class="form__input _req _email" placeholder="Номер телефону">
+              <div class="form__tooltip">
+                <span class="form__tooltip-text">заполните обязательные поля!</span>
+              </div>
+            </div> 
+                        
+          </div><!-- form__flex-alignment -->
+               
+          <!--
+          <div class="form__item">              
+            <div class="form__label">Вид дубления:</div>
+            <div class="options">
+              <div class="options__item">
+                <input id="formRightHanded" checked type="radio" value="right" name="hand" class="options__input"> 
+                <label for="formRightHanded" class="options__label"><span>Химическое</span></label>
+              </div>
+              <div class="options__item">
+                <input id="formLeftHanded" type="radio" value="left" name="hand" class="options__input"> 
+                <label for="formLeftHanded" class="options__label"><span>Растительное</span></label>
+              </div>
+            </div>
+          </div>
+          -->
+               
+          <div class="form__item"> 
+            <!--<label for="formMessage" class="form__label">Your message:</label>-->
+            <textarea name="message" id="formMessage" class="form__input form__input--area" placeholder="Повідомлення"></textarea>
+          </div> 
+               
+          <!--
+          <div class="form__item"> 
+            <div class="form__label">Вид фурнитуры:</div>
+            <select name="age" class="select">
+              <option value="Антик" selected>Антик</option>
+              <option value="Сатин">Сатин</option>
+              <option value="Без фурнитуры">Без фурнитуры</option>
+            </select>
+          </div>
+          <div class="form__item"> 
+            <div class="form__label">Ваш эскиз (фото)</div>
+            <div class="file">
+              <div class="file__item">
+                <input id="formImage" accept=".jpg, .png, .gif" type="file" name="image" class="file__input">
+                <div class="file__button">Эскиз</div>
+              </div> 
+              <div id="formPreview" class="file__preview"></div>
+            </div>                 
+          </div>
+          -->
+               
+          <div class="form__item"> 
+             <div class="checkbox"> 
+                <input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input _req">
+                <label for="formAgreement" class="checkbox__label"><span>I give my consent to the processing of 
+                       data in accordance with <a href="#">the conditions</a>*</span></label>
+             </div>
+          </div>              
+          <button type="submit" class="form__button">Надіслати форму</button>      
+          <!--<span class="form-button-cancel">cancel</span>--> <!-- TODO - кнопка очистки формы: -->                   
+        </form><!--form__body--> 
+                                                                                                 
+      </div><!-- class="form" -->                        
+                          
+     
+  
+  
+       
+</div><!-- contacts -->  
+<!-- module contacts -->
+          
+          
+          
+
+      </div>
+      <!--<div id="footerSocial" class="footer-social">                                     
+        <a class="footer-social__link" href="">
+          <span class="footer-social__icon fab fa-whatsapp"></span>            
+        </a>          
+        <a class="footer-social__link" href="">          
+          <span class="footer-social__icon fab fa-facebook-f"></span> 
+        </a>                  
+        <a class="footer-social__link" href="">
+          <span class="footer-social__icon fas fa-at"></span>
+        </a>        
+      </div>--> 
+
+      
+      
+
+      <!--      
+      <div id="footerLogo" class="footer__logo">
+        <a class="footer__logo-link" href="index.html">
+          <img class="footer__logo-image" src="logo/logo.png" alt="logo">
+        </a>           
+      </div>
+      -->
+
+      <!-- 
+      <div id="copyright">                  
+        <p class="company">Copyright &#169;<script>document.write(new Date().getFullYear());</script>
+           All rights reserved                    
+        </p>
+        <div class="policy">
+          <a class="policy__privacy" href="">Privacy Policy</a>
+            &#124;
+          <a class="policy__terms" href="">Terms of Use</a>
+        </div>
+      </div>
+      -->
+                                
+    </div><!-- footer__inner --> 
+      
+  </div><!-- container -->      
+</footer>
+  
+    </div><!-- wrapper -->
+    <script src="vendors/swiper/swiper11-bundle.min.js?_v=20240920203110"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20240920203110"></script>-->
+    <script src="js/app.min.js?_v=20240920203110"></script> 
+
+<script>
+    
+  </script>
+    
+    
+    
+
+  </body>
+</html>
